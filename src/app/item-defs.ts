@@ -73,7 +73,7 @@ export const tier1ItemList: CompletedItem[] = [
     iconPath: 'assets/BLOODTHIRSTER.png',
     description: '+35% Lifesteal',
     in1: baseItems.BF_SWORD,
-    in2: baseItems.RECURVE_BOW,
+    in2: baseItems.NEGATRON_CLOAK,
   },
   {
     id: 'FORCE_OF_NATURE',
@@ -136,7 +136,7 @@ export const tier2ItemList: CompletedItem[] = [
     id: 'HEXTECH_GUNBLADE',
     name: 'Hextech Gunblade',
     iconPath: 'assets/HEXTECH_GUNBLADE.png',
-    description: 'Heal for 25.0 of all damage dealt',
+    description: 'Heal for 25% of all damage dealt',
     in1: baseItems.BF_SWORD,
     in2: baseItems.NEEDLESSLY_LARGE_ROD,
   }, {

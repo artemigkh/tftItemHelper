@@ -24,7 +24,6 @@ export class AppComponent {
 
   baseItemChange(ev: MatButtonToggleChange) {
     this.selectedItems = ev.value;
-    console.log(this.selectedItems);
   }
 
   itemSelected(item: BaseItem): boolean {
